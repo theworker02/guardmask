@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/guardmask",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Guard and reshape mask text streams with deterministic transforms.",
+  "bin": {
+    "guardmask": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/guardmask.git"
+  },
+  "homepage": "https://theworker02.github.io/guardmask/",
+  "keywords": [
+    "guard",
+    "mask",
+    "text",
+    "cli",
+    "toolkit"
+  ]
+}
